@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+
+*{margin: 0px; padding: 0px; font-family: "Lexend", sans-serif; text-decoration: none; transition: 300ms;}
+
+#body{
+    background: #DBE2DF;
+    background-image: url(/Projetos/E-portifólio/assets/img/fundo-header.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 150px 0px;
+}
+
+div.header01{
+    display: flex;
+}
+
+#logo{
+    width: 40px;
+    height: 47px;
+}
+
+.fundo-verde{
+    margin-left: 78px;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    padding: 5px 31px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: #DBE2DF;
+    box-shadow: 0px 0px 25.6px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+}
+
+.theme{
+    display: inline-flex;
+    padding: 11.368px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.563px;
+    border-radius: 32.974px;
+    background: #D1DCD7;
+    cursor: pointer;
+}
+
+#sol{
+    display: inline-flex;
+    padding: 11.368px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.563px;
+    border-radius: 32.974px;
+    background: #272928;
+    cursor: pointer;
+    display: none;
+}
+
+#sol:hover{
+    background: #D1DCD7;
+}
+
+
+/* ------ fim da header */
+
+section.fundo01{
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.header-01{
+    padding: 20px 0px;
+}
+
+h1{
+    margin-top: 101px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 147%;
+    text-transform: uppercase;
+}
+
+a.texto-nome{
+    font-weight: 600;
+}
+
+/* menu nagevagação */
+
+nav{
+    display: flex;
+}
+
+ul.list-itens{
+    margin-top: 101px;
+    list-style: none;  
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+li.itens-nav{
+    display: flex;
+    padding: 10px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 43px;
+    border: 0.846px solid #000; 
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    color: #000;
+    font-size: 16.923px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+li#menu-ativo{
+    background-color: #000;
+    color: white;
+}
+
+/* Hover menu */
+
+li.itens-nav:hover{
+    background: #000;
+    color: white;
+}
+
+li#menu-ativo:hover{
+    background: none;
+    color: black;
+}
+
+/* setas */
+
+ul.setas-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+li.setas{
+    height: 43px;
+}
+
+li.setas-desativado{
+    display: none;
+    height: 43px;
+}
+
+.seta-branca{
+    display: none;
+}
+
+/*------ menu nagevagação */
+
+
+.header-02{
+    margin-top: 58px;
+}
+
+img#slide-marcacao{
+    width: 516px;
+    height: 569px;      
+}
+
+@media screen and (max-width: 1200px){
+    header{
+        padding: 25px 50px 0px;
+    }
+    section.fundo01{
+        padding: 0px 50px;    
+    }
+}
+
+@media screen and (max-width: 1080px){
+    h1{
+        font-size: 35px;
+    }
+    img#slide-marcacao{
+        width: 416px;
+        height: 469px;      
+    }
+    ul.list-itens{
+        margin-top: 80px;
+    }
+    ul.setas-nav{
+        margin-top: 95px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    h1{
+        font-size: 25px;
+    }
+    img#slide-marcacao{
+        width: 390px;
+        height: 419px;      
+    }
+}
+
+@media screen and (max-width: 790px){
+    h1{
+        font-size: 25px;
+    }
+    img#slide-marcacao{
+        width: 390px;
+        height: 419px;      
+    }
+}
+
+@media screen and (max-width: 420px){
+    #body{
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    header{
+        padding: 30px 25px 0px;
+    }
+    section.fundo01{
+        padding: 0px 25px;    
+    }
+
+    .fundo-verde{
+        margin-left: 42px;
+        padding: 0px 15px;
+        font-size: 10px;
+    }
+
+    h1{
+        margin-top: 85px;
+        font-size: 33px;
+    }
+
+    ul.list-itens{
+        width: 162px;
+    }
+
+    img#slide-marcacao{
+        width: 331px;
+        height: 355px;      
+    }
+}
