@@ -16,22 +16,30 @@ function carregada(){
 const lua = document.getElementById('lua');
 
 lua.addEventListener('mouseenter', function (){
+<<<<<<< HEAD
     lua.src = './assets/img/lua-clara.svg';
+=======
+    lua.src = 'assets/img/lua-clara.svg';
+>>>>>>> 349cca6779be67c92bc317a4ff7a18853c8ea334
     lua.style.background = "black"
 
 })
 lua.addEventListener('mouseleave', function (){
+<<<<<<< HEAD
     lua.src = './assets/img/lua.svg';
+=======
+    lua.src = 'assets/img/lua.svg';
+>>>>>>> 349cca6779be67c92bc317a4ff7a18853c8ea334
     lua.style.background = "#D1DCD7"
 })
 
 const sol = document.getElementById('sol');
 
 sol.addEventListener('mouseenter', function (){
-    sol.src = '/Projetos/E-portifólio/assets/img/sol-escuro.svg';
+    sol.src = 'assets/img/sol-escuro.svg';
 })
 sol.addEventListener('mouseleave', function (){
-    sol.src = '/Projetos/E-portifólio/assets/img/sol.svg';
+    sol.src = 'assets/img/sol.svg';
 })
 
 // Mudança de Tema
@@ -64,7 +72,11 @@ function alterarBlack(){
   element.style.color = "#D1DCD7";
   });
 
+<<<<<<< HEAD
   body1.style.backgroundImage = "url(./assets/img/fundo-header.png)";
+=======
+  body1.style.backgroundImage = "url(assets/img/fundo-header.png)";
+>>>>>>> 349cca6779be67c92bc317a4ff7a18853c8ea334
   body1.style.backgroundRepeat = "no-repeat";
 
   document.querySelector('#estudante').style.boxShadow = "0px 0px 25.6px 0px rgba(255, 255, 255, 0.15)";
@@ -128,7 +140,11 @@ function alterarWhite(){
   element.style.color = "#161817";
   });
 
+<<<<<<< HEAD
   body1.style.backgroundImage = "url(./assets/img/fundo-header.png)";
+=======
+  body1.style.backgroundImage = "url(assets/img/fundo-header.png)";
+>>>>>>> 349cca6779be67c92bc317a4ff7a18853c8ea334
   body1.style.backgroundRepeat = "no-repeat";
 
   document.querySelector('#estudante').style.boxShadow = "0px 0px 25.6px 0px rgba(0, 0, 0, 0.15)";
