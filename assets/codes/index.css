@@ -4,7 +4,7 @@
 
 #body{
     background: #DBE2DF;
-    background-image: url(/Projetos/E-portifólio/assets/img/fundo-header.png);
+    background-image: url(Projetos/E-portifólio/assets/img/fundo-header.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
